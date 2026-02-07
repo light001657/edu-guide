@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu Guide</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="logo.png" type="image/png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading-screen" class="loading-active">
+        <div class="loader">
+            <img src="logo.png" alt="Edu Guide" class="logo-icon">
+            <h1>Edu Guide</h1>
+            <p class="loader-text">v1.2</p>
+        </div>
+    </div>
+    <div id="notification" class="notification"></div>
+    <div id="app" class="app-container">
+        <header>
+            <h1>Edu Guide</h1>
+            <p id="page-title">Study Plans</p>
+        </header>
+        <div id="content" class="content-area"></div>
+        <nav class="bottom-nav">
+            <button id="home-btn" class="nav-btn active">🏠 Home</button>
+            <button id="plus-btn" class="nav-btn">➕ Create</button>
+            <button id="settings-btn" class="nav-btn">⚙️ Settings</button>
+        </nav>
+    </div>
+    <audio id="bgmAudio" loop></audio>
+    <script src="sounds.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

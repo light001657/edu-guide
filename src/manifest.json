@@ -1,0 +1,24 @@
+{
+  "name": "Edu Guide",
+  "short_name": "Edu Guide",
+  "description": "A mobile-first secure web application for managing study plans",
+  "start_url": "/src/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

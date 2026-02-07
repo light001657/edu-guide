@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Book -->
+  <path d="M 50 40 Q 50 35 55 35 L 145 35 Q 150 35 150 40 L 150 160 Q 150 165 145 165 L 55 165 Q 50 165 50 160 Z" fill="none" stroke="#000" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M 100 35 L 100 165" stroke="#000" stroke-width="6"/>
+  
+  <!-- Clock circle -->
+  <circle cx="130" cy="70" r="35" fill="none" stroke="#000" stroke-width="7"/>
+  
+  <!-- Clock hands -->
+  <line x1="130" y1="50" x2="130" y2="35" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <line x1="130" y1="70" x2="145" y2="70" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Clock center dot -->
+  <circle cx="130" cy="70" r="4" fill="#000"/>
+</svg>
